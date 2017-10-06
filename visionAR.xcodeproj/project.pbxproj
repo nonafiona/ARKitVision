@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		BA356AAE1F873FCD0095D3ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AAD1F873FCD0095D3ED /* AppDelegate.swift */; };
 		BA356AB01F873FCD0095D3ED /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA356AAF1F873FCD0095D3ED /* Scene.sks */; };
-		BA356AB21F873FCD0095D3ED /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AB11F873FCD0095D3ED /* Scene.swift */; };
+		BA356AB21F873FCD0095D3ED /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AB11F873FCD0095D3ED /* Logic.swift */; };
 		BA356AB41F873FCD0095D3ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AB31F873FCD0095D3ED /* ViewController.swift */; };
 		BA356AB71F873FCD0095D3ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA356AB51F873FCD0095D3ED /* Main.storyboard */; };
 		BA356AB91F873FCD0095D3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA356AB81F873FCD0095D3ED /* Assets.xcassets */; };
 		BA356ABC1F873FCD0095D3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA356ABA1F873FCD0095D3ED /* LaunchScreen.storyboard */; };
 		BA356AC71F873FCD0095D3ED /* visionARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AC61F873FCD0095D3ED /* visionARTests.swift */; };
 		BA356AD21F873FCD0095D3ED /* visionARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AD11F873FCD0095D3ED /* visionARUITests.swift */; };
+		BAB552831F87F79600C729F8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAB552801F87EE9F00C729F8 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		BA356AAA1F873FCD0095D3ED /* visionAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA356AAD1F873FCD0095D3ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA356AAF1F873FCD0095D3ED /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
-		BA356AB11F873FCD0095D3ED /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		BA356AB11F873FCD0095D3ED /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 		BA356AB31F873FCD0095D3ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA356AB61F873FCD0095D3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA356AB81F873FCD0095D3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		BA356ACD1F873FCD0095D3ED /* visionARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visionARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA356AD11F873FCD0095D3ED /* visionARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionARUITests.swift; sourceTree = "<group>"; };
 		BA356AD31F873FCD0095D3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB552801F87EE9F00C729F8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 		BA356AAC1F873FCD0095D3ED /* visionAR */ = {
 			isa = PBXGroup;
 			children = (
+				BAB552801F87EE9F00C729F8 /* Inceptionv3.mlmodel */,
 				BA356AAD1F873FCD0095D3ED /* AppDelegate.swift */,
 				BA356AAF1F873FCD0095D3ED /* Scene.sks */,
-				BA356AB11F873FCD0095D3ED /* Scene.swift */,
+				BA356AB11F873FCD0095D3ED /* Logic.swift */,
 				BA356AB31F873FCD0095D3ED /* ViewController.swift */,
 				BA356AB51F873FCD0095D3ED /* Main.storyboard */,
 				BA356AB81F873FCD0095D3ED /* Assets.xcassets */,
@@ -267,7 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA356AB41F873FCD0095D3ED /* ViewController.swift in Sources */,
-				BA356AB21F873FCD0095D3ED /* Scene.swift in Sources */,
+				BAB552831F87F79600C729F8 /* Inceptionv3.mlmodel in Sources */,
+				BA356AB21F873FCD0095D3ED /* Logic.swift in Sources */,
 				BA356AAE1F873FCD0095D3ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
