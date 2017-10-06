@@ -17,6 +17,7 @@
 		BA356AC71F873FCD0095D3ED /* visionARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AC61F873FCD0095D3ED /* visionARTests.swift */; };
 		BA356AD21F873FCD0095D3ED /* visionARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA356AD11F873FCD0095D3ED /* visionARUITests.swift */; };
 		BAB552831F87F79600C729F8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAB552801F87EE9F00C729F8 /* Inceptionv3.mlmodel */; };
+		BAB552851F88024C00C729F8 /* ARBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB552841F88024C00C729F8 /* ARBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BA356AD11F873FCD0095D3ED /* visionARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionARUITests.swift; sourceTree = "<group>"; };
 		BA356AD31F873FCD0095D3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB552801F87EE9F00C729F8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		BAB552841F88024C00C729F8 /* ARBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				BA356AB81F873FCD0095D3ED /* Assets.xcassets */,
 				BA356ABA1F873FCD0095D3ED /* LaunchScreen.storyboard */,
 				BA356ABD1F873FCD0095D3ED /* Info.plist */,
+				BAB552841F88024C00C729F8 /* ARBridge.swift */,
 			);
 			path = visionAR;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				BA356AB41F873FCD0095D3ED /* ViewController.swift in Sources */,
 				BAB552831F87F79600C729F8 /* Inceptionv3.mlmodel in Sources */,
+				BAB552851F88024C00C729F8 /* ARBridge.swift in Sources */,
 				BA356AB21F873FCD0095D3ED /* Logic.swift in Sources */,
 				BA356AAE1F873FCD0095D3ED /* AppDelegate.swift in Sources */,
 			);
